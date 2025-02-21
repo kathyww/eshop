@@ -33,6 +33,10 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react/prop-types': 'off',
+      // change these errors to warnings
+      'react-refresh/only-export-components': 'warn',
+      'no-unused-vars': 'warn',
     },
   },
 ]
